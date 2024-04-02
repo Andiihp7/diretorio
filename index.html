@@ -5,24 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - PetShop Online</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 100px; /* Ajuste conforme necessário */
+            height: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+    </style>
 </head>
 <body>
-    <!-- Incluindo o cabeçalho -->
-    <iframe src="header.html" frameborder="0" width="100%" height="100"></iframe>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logopet.jpg" alt="Logotipo PetShop">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <!-- Conteúdo da página -->
     <div class="container">
         <h2>Bem-vindo à PetShop Online</h2>
-        <!-- Outros conteúdos da página aqui -->
+        <p>Nós oferecemos uma ampla variedade de produtos e serviços para seus animais de estimação.</p>
+        <h3>Nossos Serviços</h3>
+        <ul>
+            <li><a href="servicos.html">Banhos e Tosa para Cães e Gatos</a></li>
+            <li><a href="servicos.html">Consulta Veterinária</a></li>
+            <li><a href="servicos.html">Produtos de Higiene e Alimentação</a></li>
+            <li><a href="servicos.html">Consulta com Especialistas</a></li>
+        </ul>
+        <h3>Nossos Produtos</h3>
+        <ul>
+            <li><a href="produtos.html">Rações para Cães e Gatos</a></li>
+            <li><a href="produtos.html">Brinquedos e Acessórios</a></li>
+            <li><a href="produtos.html">Camas e Casinhas</a></li>
+            <li><a href="produtos.html">Produtos de Higiene</a></li>
+        </ul>
+        <h3>Outros Recursos</h3>
+        <ul>
+            <li><a href="cadastro_cliente.html">Cadastro de Cliente</a></li>
+            <li><a href="cadastro_pet.html">Cadastro de Pet</a></li>
+            <li><a href="tele_busca.html">Tele-Busca</a></li>
+        </ul>
+        <p>Para começar, navegue pelos nossos serviços e produtos em nosso menu de navegação acima.</p>
     </div>
 
     <!-- Rodapé -->
-    <footer>
-        <!-- Inserir o rodapé aqui -->
-    </footer>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Informações de Contato</h4>
+                <p>Endereço: Rua Exemplo, 1234 - Bairro, Cidade - Estado</p>
+                <p>Telefone: (XX) 1234-5678</p>
+                <p>Email: contato@petshoponline.com</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Autor do Site</h4>
+                <p>Desenvolvido por: DEVS</p>
+                <p>Email: andi@gmail.com</p>
+                <p>GitHub: <a href="https://github.com/andiihp7">github.com/seunome</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
+
+    <!-- JavaScript do Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Seu script personalizado -->
     <script src="js/script.js"></script>
 </body>
 </html>
+
